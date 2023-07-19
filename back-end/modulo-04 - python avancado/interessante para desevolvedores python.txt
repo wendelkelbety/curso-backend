@@ -1,7 +1,0 @@
-awesome-python - github da vinta.
-
-Hackerrank - site de treinamento.
-
-letcode - treinamento de resolução de problemas.
-
-livro Fluent Python.
