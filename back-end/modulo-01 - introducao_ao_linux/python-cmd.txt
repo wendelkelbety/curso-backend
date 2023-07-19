@@ -1,0 +1,24 @@
+yum -y - instalador de pacotes/softwares
+
+mkdir - cria pasta
+touch - cria arquivos
+cp - copia arquivo
+cpr - copia todos arquivos da pasta
+mv - copia arquivo
+rm - remover arquivo
+rm -r - remove diretrio
+rm -rf - força a remoção do diretorio
+
+ll - lista os itens da pasta
+pwd - mostra a pasta atual
+vi/vim - entra no arquivo(para edição)
+nano - entra no arquivo(com uma visualização e funçoes diferentes)
+
+sudo sistemctl start - iniciar servidor ou software
+sudo sistemctl stop - parar servidor ou software
+
+deactivate - sair do ambiente virtual
+source (nome pasta projeto/bin/activate) - ativa o ambiente virtual
+
+OBS:
+ - em caso de instalação negada usar sempre "sudo" antes de pip/dfn/yum

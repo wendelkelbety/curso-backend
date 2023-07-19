@@ -1,0 +1,8 @@
+referenciando tabelas:
+  - deve criar uma PRIMARY KEY na tabela para referenciar.
+ALTER TABLE "nome tabela" ADD CONSTRAINT fk_order_customer FOREIGN KEY (order_id) REFERENCES customer (customer_id);
+
+pesquisando pela referencia:
+ - SELECT customer.email, customer.name, value FROM customer INNER JOIN customer_order ON customer.customer_id = customer_order.customer_id;
+ - observação tambem existe o "left join" ele inverte a posição da relação da tabela.
+ -  para fazer filtro basta usar o "where" no final, de forma padrao.

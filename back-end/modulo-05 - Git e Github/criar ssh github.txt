@@ -1,0 +1,4 @@
+senha do meu repositorio: ra04ra
+ssh-keygen -t ed25519 -C "seu email"
+
+entrar na conta github e ir em configurações e acessar "SSH and GPG Keys", criar uma SSH e inserir a chave criada.

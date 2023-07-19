@@ -1,0 +1,25 @@
+GROU BY:
+ - SELECT order_id FROM customer_order GROUP BY order_id;
+ com o uso do SUM(), faz o calculo dos valores:
+ - SELECT order_id, SUM(amount) FROM customer_order GROUP BY order_id;
+ com INNER JOIN:
+ - SELECT name CUSTOMER, SUM(amount) FROM customer_order INNER JOIN customer USING (customer_id) GROUP BY name;
+
+HAVING:
+ filtra dados.
+ - SELECT order_id, SUM(amount) FROM customer_order GROUP BY order_id HAVING SUM(amount) > 100 ORDER BY order_id;
+
+DISTINCT:
+ filtra as repetiçoes de dados.
+ - SELECT DISTINCT customer_id FROM customer_order;
+
+ORDER BY ASC/DESC:
+ ordenação do resultado da pesquisa.
+ - SELECT * FROM customer ORDER BY name DESC;
+
+LIMIT:
+ - SELECT * FROM customer_order LIMIT 4;
+
+OFFSET:
+ limita a busca da linha escolhida(util para pesquisas em pedaços)
+ - SELECT * FROM customer_order LIMIT 2 OFFSET 2;

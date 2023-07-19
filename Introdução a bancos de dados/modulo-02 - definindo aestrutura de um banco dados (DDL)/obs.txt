@@ -1,0 +1,25 @@
+usar sql shell:
+
+CREATE TABLE - criar tabela
+DROP TABLE - remover tabela
+SELECT * FROM "nome da tabela" - seleciona a tabela
+
+adicionar campo:
+ - ALTER TABLE "nome da tabela" ADD "nome e tipo do campo"
+
+remover campo:
+ - ALTER TABLE "nome da tabela" DROP "nome e tipo do campo"
+
+alterar tipo do campo:
+ - ALTER TABLE "nome da tabela" ALTER COLUMN "nome e novo tipo do campo"
+
+campo nao aceitar null:
+ - ALTER TABLE "nome da tabela" ALTER COLUMN "nome e tipo do campo" NOT NULL
+
+adicionar contador:
+ - ALTER TABLE "nome da tabela" ADD CONSTRAINT "nome da constraint" PRIMARY KEY 
+(coluna1, coluna2, ...); 
+
+alterar contador:
+ - ALTER TABLE "nome da tabela" DROP CONSTRAINT "nome da constraint"
+
