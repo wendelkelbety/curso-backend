@@ -1,0 +1,17 @@
+ambiente virtual:
+ - python -m venv env
+
+ativar ambiente virtual:
+ - ir na pasta que criou o ambiente e navegar "nome do virtual ambient"\Scripts\Activate
+
+instalando django:
+ - pip install django
+
+criando projeto:
+ - django-admin startproject "nome do projeto"
+
+criando app:
+ - manage.py startpapp "nome do app"
+
+migração:
+ - manage.py migrate
