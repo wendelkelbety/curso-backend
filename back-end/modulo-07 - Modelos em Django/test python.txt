@@ -1,0 +1,5 @@
+pip install:
+ - pytest-django
+ - Faker
+ - factory_boy
+ - pytest
