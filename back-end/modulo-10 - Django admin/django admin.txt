@@ -1,0 +1,2 @@
+ - Criar super usuario
+ - acessar o site com "/admin" e acessar com o super usuario criado

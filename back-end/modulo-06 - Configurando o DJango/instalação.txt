@@ -18,18 +18,3 @@ migração:
 
 criar usuario:
  - manage.py createsuperuser
-
-modo terminal do django:
- - manage.py shell
- importando models:
- - from blog.models.post import Post
- - from django.contrib.auth.models import User
- 
- pesquisa pelo terminal:
- - usr = User.objects.filter() -- 'retorna um vetor'
- - usr = User.objects.get(username='wendel') -- 'pega linha da tabela'
-
- create,update,delete:
- - User.objects.create()
- - User.objects.update()
- - User.objects.delete()
