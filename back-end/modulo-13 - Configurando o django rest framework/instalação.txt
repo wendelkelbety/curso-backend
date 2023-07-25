@@ -1,7 +1,19 @@
 poetry windows:
  - (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python
  - adicionar ao path do sistema: $Env:Path += ";C:\Users\<usuario>\AppData\Roaming\Python\Scripts"; setx PATH "$Env:Path"
+ ou usando pip:
+ - pip install poetry
 
 
 black:
  - pip install black
+
+configurando:
+ - criar pasta do projeto e ir até ela
+ - executar poetry init
+ - adicionar ou não dependencias
+ - poetry add django
+ - poetry run django-admin startproject "nome do projeto"
+ - poetry run django-admin startapp "nome do app"
+ - poetry run manage.py migrate
+ - poetry run manage.py runserver
