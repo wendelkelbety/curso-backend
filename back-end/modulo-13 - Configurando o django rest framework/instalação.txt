@@ -1,0 +1,7 @@
+poetry windows:
+ - (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python
+ - adicionar ao path do sistema: $Env:Path += ";C:\Users\<usuario>\AppData\Roaming\Python\Scripts"; setx PATH "$Env:Path"
+
+
+black:
+ - pip install black
