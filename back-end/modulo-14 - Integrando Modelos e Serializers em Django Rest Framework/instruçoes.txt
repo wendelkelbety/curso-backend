@@ -1,0 +1,5 @@
+seguir:
+ - declarar os modelos no admin.py de cada aplicativo
+ - dentro do __init__.py nós declaramos os modelos
+ - declaramos os nossos apps (product e order) dentro do bookstore project (settings.py)
+ - deletar o models.py porque ja criamos um diretorio separado para organização
