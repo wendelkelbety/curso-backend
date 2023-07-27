@@ -1,0 +1,4 @@
+poetry add django_extensions
+poetry run manage.py show_urls
+
+poetry run manage.py test
