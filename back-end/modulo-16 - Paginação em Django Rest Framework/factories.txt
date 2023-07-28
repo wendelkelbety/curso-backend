@@ -1,0 +1,8 @@
+paginação:
+ - 127.0.0.1/"nomeprojejo e url"/"pagina gerada pelo rest_framework"
+
+poetry run manage.py shell_plus
+
+insert com factories:
+ - importar o factorie: "from product.factories import ProductFactory"
+ - exemplo usando um for "for _ in range(50): ProductFactory()" vai criar 50 produtos aleatorios
