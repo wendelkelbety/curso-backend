@@ -1,0 +1,12 @@
+wsl2 necessaria.
+
+ - docker run (nome da imagem no hub), download da imagem.
+ - docker run -it (nome da imagem no hub), faz o download e logo após interage com a imagem baixada.
+ - docker ps, mostra as imagens existentes na maquina.
+
+
+ - rodar um sevidor(nginx) com docker: docker run -it --rm -d -p 8080:80 --name web nginx.
+ - parar o servidor: docker stop (container id, encontra usando o "docker ps").
+
+ - criar imagem: entrar na pasta dos arquivos e docker build -t "nome de usuario do docker hub"/"nome do repositorio" .
+ - subir para o docker hub: docker push "nome usuario"/"nome do repositorio"
